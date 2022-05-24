@@ -644,3 +644,41 @@
 2022-05-24 20:04:05: [0mGET /favicon.ico [33m401 [0m0.816 ms - 37[0m
 2022-05-24 20:31:39: 1
 2022-05-24 20:39:57: 1
+2022-05-24 20:42:14: 1
+2022-05-24 20:42:26: UnauthorizedError: No authorization token was found
+    at middleware (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express-jwt\lib\index.js:76:21)
+    at D:\学习\小滴课堂\Node\nodejs\server\node_modules\express-unless\index.js:47:5
+    at Layer.handle [as handle_request] (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\index.js:317:13)
+    at D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\学习\小滴课堂\Node\nodejs\server\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (events.js:223:5)
+    at SendStream.error (D:\学习\小滴课堂\Node\nodejs\server\node_modules\send\index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2022-05-24 20:42:26: [0mGET / [33m401 [0m5.109 ms - 37[0m
+2022-05-24 20:42:26: UnauthorizedError: No authorization token was found
+    at middleware (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express-jwt\lib\index.js:76:21)
+    at D:\学习\小滴课堂\Node\nodejs\server\node_modules\express-unless\index.js:47:5
+    at Layer.handle [as handle_request] (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\index.js:317:13)
+    at D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\学习\小滴课堂\Node\nodejs\server\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (events.js:223:5)
+    at SendStream.error (D:\学习\小滴课堂\Node\nodejs\server\node_modules\send\index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2022-05-24 20:42:26: [0mGET /favicon.ico [33m401 [0m1.003 ms - 37[0m
+2022-05-24 20:47:52: 1
