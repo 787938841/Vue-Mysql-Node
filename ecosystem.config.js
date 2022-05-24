@@ -32,7 +32,7 @@ module.exports = {
       path : '/usr/local/myProject',
       ssh_options: "StrictHostKeyChecking=no",
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production',
-      "env": { 
+      "env": {  
         "NODE_ENV": "production"
         }
     }
