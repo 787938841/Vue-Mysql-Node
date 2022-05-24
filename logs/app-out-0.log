@@ -1,0 +1,646 @@
+2020-03-16 22:33:27: [0mGET /api/article/allList [36m304 [0m18.983 ms - -[0m
+2020-03-16 22:33:27: UnauthorizedError: No authorization token was found
+    at middleware (/Users/ericxie/录课专用/nodejs/server/node_modules/express-jwt/lib/index.js:76:21)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express-unless/index.js:47:5
+    at Layer.handle [as handle_request] (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:219:5)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/send/index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2020-03-16 22:33:27: [0mGET /favicon.ico [33m401 [0m2.665 ms - 37[0m
+2020-03-16 22:39:21: UnauthorizedError: No authorization token was found
+    at middleware (/Users/ericxie/录课专用/nodejs/server/node_modules/express-jwt/lib/index.js:76:21)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express-unless/index.js:47:5
+    at Layer.handle [as handle_request] (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:219:5)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/send/index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2020-03-16 22:39:21: [0mGET /hhh [33m401 [0m3.230 ms - 37[0m
+2020-03-16 22:39:21: UnauthorizedError: No authorization token was found
+    at middleware (/Users/ericxie/录课专用/nodejs/server/node_modules/express-jwt/lib/index.js:76:21)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express-unless/index.js:47:5
+    at Layer.handle [as handle_request] (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:219:5)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/send/index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2020-03-16 22:39:21: [0mGET /favicon.ico [33m401 [0m1.747 ms - 37[0m
+2020-03-16 22:40:26: 1
+2020-03-16 22:41:05: 1
+2020-03-17 12:08:06: 1
+2020-03-17 12:08:31: [0mGET /api/article/allList [36m304 [0m35.780 ms - -[0m
+2020-03-17 12:08:32: UnauthorizedError: No authorization token was found
+    at middleware (/Users/ericxie/录课专用/nodejs/server/node_modules/express-jwt/lib/index.js:76:21)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express-unless/index.js:47:5
+    at Layer.handle [as handle_request] (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:219:5)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/send/index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2020-03-17 12:08:32: [0mGET /favicon.ico [33m401 [0m2.724 ms - 37[0m
+2020-03-17 12:09:01: 1
+2020-03-17 12:14:19: [0mGET /api/article/allList [36m304 [0m83.081 ms - -[0m
+2020-03-17 12:14:19: UnauthorizedError: No authorization token was found
+    at middleware (/Users/ericxie/录课专用/nodejs/server/node_modules/express-jwt/lib/index.js:76:21)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express-unless/index.js:47:5
+    at Layer.handle [as handle_request] (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:219:5)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/send/index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2020-03-17 12:14:19: [0mGET /favicon.ico [33m401 [0m2.645 ms - 37[0m
+2020-03-17 14:37:41: [0mGET /api/article/allList [36m304 [0m7.326 ms - -[0m
+2020-03-17 14:37:42: UnauthorizedError: No authorization token was found
+    at middleware (/Users/ericxie/录课专用/nodejs/server/node_modules/express-jwt/lib/index.js:76:21)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express-unless/index.js:47:5
+    at Layer.handle [as handle_request] (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:219:5)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/send/index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2020-03-17 14:37:42: [0mGET /favicon.ico [33m401 [0m1.319 ms - 37[0m
+2020-03-17 15:27:39: UnauthorizedError: No authorization token was found
+    at middleware (/Users/ericxie/录课专用/nodejs/server/node_modules/express-jwt/lib/index.js:76:21)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express-unless/index.js:47:5
+    at Layer.handle [as handle_request] (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:219:5)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/send/index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2020-03-17 15:27:39: [0mGET /api/user/info [33m401 [0m4.570 ms - 37[0m
+2020-03-17 15:27:39: [0mGET /api/article/allList [32m200 [0m10.890 ms - 4995[0m
+2020-03-17 15:27:56: UnauthorizedError: No authorization token was found
+    at middleware (/Users/ericxie/录课专用/nodejs/server/node_modules/express-jwt/lib/index.js:76:21)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express-unless/index.js:47:5
+    at Layer.handle [as handle_request] (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:219:5)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/send/index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2020-03-17 15:27:56: [0mGET /api/user/info [33m401 [0m1.458 ms - 37[0m
+2020-03-17 15:27:56: [0mGET /api/article/detail?article_id=3 [32m200 [0m14.856 ms - 1683[0m
+2020-03-17 15:27:56: [0mGET /api/comment/list?article_id=3 [36m304 [0m14.804 ms - -[0m
+2020-03-17 15:28:02: [0mGET /api/article/allList [36m304 [0m1.280 ms - -[0m
+2020-03-17 15:28:17: UnauthorizedError: No authorization token was found
+    at middleware (/Users/ericxie/录课专用/nodejs/server/node_modules/express-jwt/lib/index.js:76:21)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express-unless/index.js:47:5
+    at Layer.handle [as handle_request] (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:219:5)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/send/index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2020-03-17 15:28:17: [0mGET /api/user/info [33m401 [0m0.993 ms - 37[0m
+2020-03-17 15:28:17: [0mGET /api/article/allList [36m304 [0m2.909 ms - -[0m
+2020-03-17 15:32:46: 1
+2020-03-17 15:32:50: UnauthorizedError: No authorization token was found
+    at middleware (/Users/ericxie/录课专用/nodejs/server/node_modules/express-jwt/lib/index.js:76:21)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express-unless/index.js:47:5
+    at Layer.handle [as handle_request] (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:219:5)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/send/index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2020-03-17 15:32:50: [0mGET /api/user/info [33m401 [0m6.848 ms - 37[0m
+2020-03-17 15:32:50: [0mGET /api/article/allList [36m304 [0m32.487 ms - -[0m
+2020-03-17 15:33:13: UnauthorizedError: No authorization token was found
+    at middleware (/Users/ericxie/录课专用/nodejs/server/node_modules/express-jwt/lib/index.js:76:21)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express-unless/index.js:47:5
+    at Layer.handle [as handle_request] (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:219:5)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/send/index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2020-03-17 15:33:13: [0mGET /api/user/info [33m401 [0m1.276 ms - 37[0m
+2020-03-17 15:33:13: [0mGET /api/article/allList [36m304 [0m2.464 ms - -[0m
+2020-03-17 15:33:32: [0mPOST /api/user/login [32m200 [0m29.036 ms - 47[0m
+2020-03-17 15:33:58: [0mPOST /api/user/login [32m200 [0m2.679 ms - 47[0m
+2020-03-17 15:34:27: [0mPOST /api/user/login [32m200 [0m3.316 ms - 47[0m
+2020-03-17 15:34:37: [0mPOST /api/user/login [32m200 [0m3.250 ms - 47[0m
+2020-03-17 15:35:22: [0mPOST /api/user/login [32m200 [0m2.326 ms - 47[0m
+2020-03-17 15:35:50: [0mPOST /api/user/login [32m200 [0m1.973 ms - 47[0m
+2020-03-17 15:36:04: [0mPOST /api/user/login [32m200 [0m2.205 ms - 47[0m
+2020-03-17 15:36:14: [0mPOST /api/user/login [32m200 [0m2.351 ms - 47[0m
+2020-03-17 15:44:13: [0mPOST /api/user/login [32m200 [0m16.302 ms - 195[0m
+2020-03-17 15:44:14: [0mGET /api/article/allList [36m304 [0m7.553 ms - -[0m
+2020-03-17 15:44:14: [0mGET /api/user/info [32m200 [0m18.216 ms - 122[0m
+2020-03-17 15:44:17: [0mGET /api/article/myList [32m200 [0m3.906 ms - 3350[0m
+2020-03-17 15:44:19: [0mGET /api/user/info [36m304 [0m2.344 ms - -[0m
+2020-03-17 15:44:19: [0mGET /uploads/2020034/1583315780003.jpeg [32m200 [0m3.481 ms - 20729[0m
+2020-03-17 15:44:20: [0mGET /api/article/allList [36m304 [0m1.173 ms - -[0m
+2020-03-17 15:44:21: [0mGET /api/user/info [36m304 [0m2.065 ms - -[0m
+2020-03-17 15:44:22: [0mGET /api/article/allList [36m304 [0m1.420 ms - -[0m
+2020-03-17 15:44:48: UnauthorizedError: No authorization token was found
+    at middleware (/Users/ericxie/录课专用/nodejs/server/node_modules/express-jwt/lib/index.js:76:21)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express-unless/index.js:47:5
+    at Layer.handle [as handle_request] (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:219:5)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/send/index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2020-03-17 15:44:48: [0mGET /api/user/info [33m401 [0m0.996 ms - 37[0m
+2020-03-17 15:44:48: [0mGET /api/article/allList [36m304 [0m1.211 ms - -[0m
+2020-03-17 15:44:50: UnauthorizedError: No authorization token was found
+    at middleware (/Users/ericxie/录课专用/nodejs/server/node_modules/express-jwt/lib/index.js:76:21)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express-unless/index.js:47:5
+    at Layer.handle [as handle_request] (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:219:5)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/send/index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2020-03-17 15:44:50: [0mGET /api/user/info [33m401 [0m0.774 ms - 37[0m
+2020-03-17 15:44:50: [0mGET /api/comment/list?article_id=2 [32m200 [0m3.223 ms - 663[0m
+2020-03-17 15:44:50: [0mGET /api/article/detail?article_id=2 [32m200 [0m4.464 ms - 3348[0m
+2020-03-17 15:44:50: [0mGET /uploads/2020034/1583315883821.jpeg [32m200 [0m1.453 ms - 20729[0m
+2020-03-17 15:44:50: [0mGET /uploads/2020033/1583245098907.jpeg [32m200 [0m2.596 ms - 20729[0m
+2020-03-17 15:44:51: [0mGET /api/article/allList [36m304 [0m1.114 ms - -[0m
+2020-03-17 15:44:52: UnauthorizedError: No authorization token was found
+    at middleware (/Users/ericxie/录课专用/nodejs/server/node_modules/express-jwt/lib/index.js:76:21)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express-unless/index.js:47:5
+    at Layer.handle [as handle_request] (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:219:5)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/send/index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2020-03-17 15:44:52: [0mGET /api/user/info [33m401 [0m0.737 ms - 37[0m
+2020-03-17 15:44:52: [0mGET /api/comment/list?article_id=3 [36m304 [0m1.753 ms - -[0m
+2020-03-17 15:44:52: [0mGET /api/article/detail?article_id=3 [36m304 [0m2.496 ms - -[0m
+2020-03-17 15:44:52: [0mGET /api/article/allList [36m304 [0m2.775 ms - -[0m
+2020-03-17 17:15:01: UnauthorizedError: No authorization token was found
+    at middleware (/Users/ericxie/录课专用/nodejs/server/node_modules/express-jwt/lib/index.js:76:21)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express-unless/index.js:47:5
+    at Layer.handle [as handle_request] (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:219:5)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/send/index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2020-03-17 17:15:01: [0mGET /api/user/info [33m401 [0m3.875 ms - 37[0m
+2020-03-17 17:15:01: [0mGET /api/article/allList [36m304 [0m7.695 ms - -[0m
+2020-03-17 17:15:04: UnauthorizedError: No authorization token was found
+    at middleware (/Users/ericxie/录课专用/nodejs/server/node_modules/express-jwt/lib/index.js:76:21)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express-unless/index.js:47:5
+    at Layer.handle [as handle_request] (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:219:5)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/send/index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2020-03-17 17:15:04: [0mGET /api/user/info [33m401 [0m0.891 ms - 37[0m
+2020-03-17 17:15:04: [0mGET /api/article/detail?article_id=3 [36m304 [0m3.004 ms - -[0m
+2020-03-17 17:15:04: [0mGET /api/comment/list?article_id=3 [36m304 [0m2.267 ms - -[0m
+2020-03-17 17:15:05: [0mGET /api/article/allList [36m304 [0m1.385 ms - -[0m
+2020-03-17 17:15:11: UnauthorizedError: No authorization token was found
+    at middleware (/Users/ericxie/录课专用/nodejs/server/node_modules/express-jwt/lib/index.js:76:21)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express-unless/index.js:47:5
+    at Layer.handle [as handle_request] (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:219:5)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/send/index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2020-03-17 17:15:11: [0mGET /api/user/info [33m401 [0m0.785 ms - 37[0m
+2020-03-17 17:15:11: [0mGET /api/article/allList [36m304 [0m2.182 ms - -[0m
+2020-03-17 17:15:17: UnauthorizedError: No authorization token was found
+    at middleware (/Users/ericxie/录课专用/nodejs/server/node_modules/express-jwt/lib/index.js:76:21)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express-unless/index.js:47:5
+    at Layer.handle [as handle_request] (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:219:5)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/send/index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2020-03-17 17:15:17: [0mGET /api/user/info [33m401 [0m0.933 ms - 37[0m
+2020-03-17 17:15:17: [0mGET /api/article/allList [36m304 [0m1.241 ms - -[0m
+2020-03-17 17:23:07: UnauthorizedError: No authorization token was found
+    at middleware (/Users/ericxie/录课专用/nodejs/server/node_modules/express-jwt/lib/index.js:76:21)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express-unless/index.js:47:5
+    at Layer.handle [as handle_request] (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:317:13)
+    at /Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/ericxie/录课专用/nodejs/server/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:219:5)
+    at SendStream.error (/Users/ericxie/录课专用/nodejs/server/node_modules/send/index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2020-03-17 17:23:07: [0mGET /api/user/info [33m401 [0m0.561 ms - 37[0m
+2020-03-17 17:23:07: [0mGET /api/article/allList [36m304 [0m1.088 ms - -[0m
+2022-05-24 18:33:20: 1
+2022-05-24 18:53:12: 1
+2022-05-24 19:37:43: 1
+2022-05-24 19:37:55: UnauthorizedError: No authorization token was found
+    at middleware (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express-jwt\lib\index.js:76:21)
+    at D:\学习\小滴课堂\Node\nodejs\server\node_modules\express-unless\index.js:47:5
+    at Layer.handle [as handle_request] (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\index.js:317:13)
+    at D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\学习\小滴课堂\Node\nodejs\server\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (events.js:223:5)
+    at SendStream.error (D:\学习\小滴课堂\Node\nodejs\server\node_modules\send\index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2022-05-24 19:37:55: [0mGET / [33m401 [0m6.544 ms - 37[0m
+2022-05-24 19:37:55: UnauthorizedError: No authorization token was found
+    at middleware (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express-jwt\lib\index.js:76:21)
+    at D:\学习\小滴课堂\Node\nodejs\server\node_modules\express-unless\index.js:47:5
+    at Layer.handle [as handle_request] (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\index.js:317:13)
+    at D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\学习\小滴课堂\Node\nodejs\server\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (events.js:223:5)
+    at SendStream.error (D:\学习\小滴课堂\Node\nodejs\server\node_modules\send\index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2022-05-24 19:37:55: [0mGET /favicon.ico [33m401 [0m1.654 ms - 37[0m
+2022-05-24 19:39:13: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1134:16)
+    --------------------
+    at Protocol._enqueue (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\Pool.js:48:16)
+    at D:\学习\小滴课堂\Node\nodejs\server\db\index.js:11:10
+    at new Promise (<anonymous>)
+    at query (D:\学习\小滴课堂\Node\nodejs\server\db\index.js:9:10)
+    at D:\学习\小滴课堂\Node\nodejs\server\routes\article.js:24:24
+    at Layer.handle [as handle_request] (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\route.js:137:13) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+2022-05-24 19:39:13: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1134:16)
+    --------------------
+    at Protocol._enqueue (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\Pool.js:48:16)
+    at D:\学习\小滴课堂\Node\nodejs\server\db\index.js:11:10
+    at new Promise (<anonymous>)
+    at query (D:\学习\小滴课堂\Node\nodejs\server\db\index.js:9:10)
+    at D:\学习\小滴课堂\Node\nodejs\server\routes\article.js:24:24
+    at Layer.handle [as handle_request] (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\route.js:137:13) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+2022-05-24 19:39:14: [0mGET /api/article/allList [31m500 [0m3136.613 ms - 186[0m
+2022-05-24 19:39:14: [0mGET /stylesheets/style.css [32m200 [0m4.482 ms - 111[0m
+2022-05-24 19:39:14: UnauthorizedError: No authorization token was found
+    at middleware (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express-jwt\lib\index.js:76:21)
+    at D:\学习\小滴课堂\Node\nodejs\server\node_modules\express-unless\index.js:47:5
+    at Layer.handle [as handle_request] (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\index.js:317:13)
+    at D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\学习\小滴课堂\Node\nodejs\server\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (events.js:223:5)
+    at SendStream.error (D:\学习\小滴课堂\Node\nodejs\server\node_modules\send\index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2022-05-24 19:39:14: [0mGET /favicon.ico [33m401 [0m0.757 ms - 37[0m
+2022-05-24 19:44:59: 1
+2022-05-24 19:58:23: 1
+2022-05-24 20:04:04: Error: ER_BAD_DB_ERROR: Unknown database 'xd_blog'
+    at Handshake.Sequence._packetToError (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:223:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\Pool.js:48:16)
+    at D:\学习\小滴课堂\Node\nodejs\server\db\index.js:11:10
+    at new Promise (<anonymous>)
+    at query (D:\学习\小滴课堂\Node\nodejs\server\db\index.js:9:10)
+    at D:\学习\小滴课堂\Node\nodejs\server\routes\article.js:24:24
+    at Layer.handle [as handle_request] (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\route.js:137:13) {
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sqlMessage: "Unknown database 'xd_blog'",
+  sqlState: '42000',
+  fatal: true
+}
+2022-05-24 20:04:04: Error: ER_BAD_DB_ERROR: Unknown database 'xd_blog'
+    at Handshake.Sequence._packetToError (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:223:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\Pool.js:48:16)
+    at D:\学习\小滴课堂\Node\nodejs\server\db\index.js:11:10
+    at new Promise (<anonymous>)
+    at query (D:\学习\小滴课堂\Node\nodejs\server\db\index.js:9:10)
+    at D:\学习\小滴课堂\Node\nodejs\server\routes\article.js:24:24
+    at Layer.handle [as handle_request] (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\route.js:137:13) {
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sqlMessage: "Unknown database 'xd_blog'",
+  sqlState: '42000',
+  fatal: true
+}
+2022-05-24 20:04:04: [0mGET /api/article/allList [31m500 [0m172.661 ms - 194[0m
+2022-05-24 20:04:04: [0mGET /stylesheets/style.css [36m304 [0m2.908 ms - -[0m
+2022-05-24 20:04:04: UnauthorizedError: No authorization token was found
+    at middleware (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express-jwt\lib\index.js:76:21)
+    at D:\学习\小滴课堂\Node\nodejs\server\node_modules\express-unless\index.js:47:5
+    at Layer.handle [as handle_request] (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\index.js:317:13)
+    at D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\学习\小滴课堂\Node\nodejs\server\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (events.js:223:5)
+    at SendStream.error (D:\学习\小滴课堂\Node\nodejs\server\node_modules\send\index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2022-05-24 20:04:04: [0mGET /favicon.ico [33m401 [0m1.543 ms - 37[0m
+2022-05-24 20:04:05: Error: ER_BAD_DB_ERROR: Unknown database 'xd_blog'
+    at Handshake.Sequence._packetToError (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:223:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\Pool.js:48:16)
+    at D:\学习\小滴课堂\Node\nodejs\server\db\index.js:11:10
+    at new Promise (<anonymous>)
+    at query (D:\学习\小滴课堂\Node\nodejs\server\db\index.js:9:10)
+    at D:\学习\小滴课堂\Node\nodejs\server\routes\article.js:24:24
+    at Layer.handle [as handle_request] (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\route.js:137:13) {
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sqlMessage: "Unknown database 'xd_blog'",
+  sqlState: '42000',
+  fatal: true
+}
+2022-05-24 20:04:05: Error: ER_BAD_DB_ERROR: Unknown database 'xd_blog'
+    at Handshake.Sequence._packetToError (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:223:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\学习\小滴课堂\Node\nodejs\server\node_modules\mysql\lib\Pool.js:48:16)
+    at D:\学习\小滴课堂\Node\nodejs\server\db\index.js:11:10
+    at new Promise (<anonymous>)
+    at query (D:\学习\小滴课堂\Node\nodejs\server\db\index.js:9:10)
+    at D:\学习\小滴课堂\Node\nodejs\server\routes\article.js:24:24
+    at Layer.handle [as handle_request] (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\route.js:137:13) {
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sqlMessage: "Unknown database 'xd_blog'",
+  sqlState: '42000',
+  fatal: true
+}
+2022-05-24 20:04:05: [0mGET /api/article/allList [31m500 [0m3.150 ms - 194[0m
+2022-05-24 20:04:05: [0mGET /stylesheets/style.css [36m304 [0m0.325 ms - -[0m
+2022-05-24 20:04:05: UnauthorizedError: No authorization token was found
+    at middleware (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express-jwt\lib\index.js:76:21)
+    at D:\学习\小滴课堂\Node\nodejs\server\node_modules\express-unless\index.js:47:5
+    at Layer.handle [as handle_request] (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\index.js:317:13)
+    at D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\学习\小滴课堂\Node\nodejs\server\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\学习\小滴课堂\Node\nodejs\server\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (events.js:223:5)
+    at SendStream.error (D:\学习\小滴课堂\Node\nodejs\server\node_modules\send\index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2022-05-24 20:04:05: [0mGET /favicon.ico [33m401 [0m0.816 ms - 37[0m
+2022-05-24 20:31:39: 1
+2022-05-24 20:39:57: 1
