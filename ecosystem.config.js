@@ -26,9 +26,9 @@ module.exports = {
   deploy : {
     production : {
       user : 'root',
-      host : '192.168.169.128',
+      host : '192.168.169.129',
       ref  : 'origin/master',
-      repo : 'git@github.com:787938841/Vue-Node-Mysql.git',
+      repo : 'git@github.com:787938841/Vue-Mysql-Node.git',
       path : '/usr/local/myProject',
       ssh_options: "StrictHostKeyChecking=no",
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production',
